@@ -540,7 +540,8 @@ padding: 50px;}
 .A{background: rgba(19, 19, 24, 0.05);
     width: 1440px;
     height: 502px;
-margin-top: 20px;}
+margin-top: 20px;
+margin: auto;}
 
 .B{display: flex;
     align-items: center;
