@@ -75,7 +75,7 @@ text-align: center;}
             background: rgba(255, 255, 255, 0.30);
         }
 
-            .nav-i{width: 174px;
+            .nav-i,.main-d{width: 174px;
                 height: 52px;
                 flex-shrink: 0;
                 border-radius: 8px;
@@ -104,6 +104,29 @@ font-weight: 400;
 line-height: normal;
                 }
 
+                /* main (popular tour) */
+                .main-a{display: flex;
+                justify-content: space-between;
+            margin: auto;
+        padding:100px;
+    margin-top: 100px;}
+    .main-b{color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;}
+        .main-c{color: rgba(19, 19, 24, 0.70);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; 
+        margin-left: 150px;}
+        .main-d{margin-left: 200px;}
+        .main-f{margin-left: -150px;}
+      
 
     
 
@@ -133,7 +156,35 @@ line-height: normal;
             .nav-j{width:350px;
                 height: 52px;}
                 .nav-i{width: 350px;}
-            
+
+                /* main (popular tour) */
+            .main-a{flex-direction: column;
+                margin-top: -50px;
+        }
+            .main-b{
+                text-align: left;
+                font-family: Mulish;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;}
+                .main-c{color: rgba(19, 19, 24, 0.70);
+                    font-family: Mulish;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                text-align: left;
+            margin-left: 0;}
+            .main-d{margin: auto;}
+            .main-e{margin-top: 50px;
+            margin-left: -100px;
+            width: 520px;
+       }
+            .main-f{width:400px;
+            height: 50%;
+        margin: auto;
+    margin-left: -50px;}
 
         
     }
