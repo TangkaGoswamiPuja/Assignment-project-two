@@ -126,7 +126,130 @@ line-height: normal;
         margin-left: 150px;}
         .main-d{margin-left: 200px;}
         .main-f{margin-left: -150px;}
+
+
+        /* main(destination) */
       
+               .bg-1{ border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+                width: 573px;
+                height: 300px; 
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+           
+        }
+               .bg-2{ background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+            border-radius: 16px;
+            width: 573px;
+            height: 300px;
+            color: #FFF;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+               .bg-3{border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+                width: 374px;
+                height: 286px;
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+               .bg-4{border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+                width: 474px;
+                height: 286px;
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+               .bg-5{border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+                width: 274px;
+                height: 286px;
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+               .bg-6{border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+                width: 473px;
+                height: 300px;
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+               .bg-7{border-radius: 16px;
+                background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+                width: 673px;
+                height: 300px;
+                color: #FFF;
+                text-align: center;
+                font-family: Mulish;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+              
+         .row-1{
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+             gap: 3px;
+             margin: auto;
+         }   
+         .row-2{display: grid;
+        grid-template-columns: repeat(3,2fr);
+    gap:6px;}  
+    .row-3{display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+gap:3px;}
+
+.all-grid{margin:auto;
+padding: 100px;
+padding-left: -5px;}
 
     
 
@@ -186,5 +309,5 @@ line-height: normal;
         margin: auto;
     margin-left: -50px;}
 
-        
+        /* main  (destination)*/
     }
